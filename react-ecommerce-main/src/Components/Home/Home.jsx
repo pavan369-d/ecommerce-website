@@ -16,7 +16,7 @@ import './home.css'
 import GreaterPng from '/Images/greaterpng.png'
 
 
-const uRL=`http://localhost:3000/api/products/`;
+const uRL=`https://ecommerce-website-gra4.onrender.com/api/products/`;
 
 const Home = ({
 error,

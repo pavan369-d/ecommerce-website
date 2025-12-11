@@ -42,7 +42,7 @@ const Explore = ({ uRL }) => {
       }
 
       const res = await axios.post(
-        `http://localhost:3000/api/users/${userId}/cart/add`,
+        `https://ecommerce-website-gra4.onrender.com/api/users/${userId}/cart/add`,
         { productId }
       );
 

@@ -16,7 +16,7 @@ const Signin = () => {
     const password = e.target.password.value;
 
     try {
-      const res = await axios.post("http://localhost:3000/api/users/login", {
+      const res = await axios.post("https://ecommerce-website-gra4.onrender.com/api/users/login", {
         email,
         password,
       });

@@ -48,7 +48,7 @@ const userProducts = useCallback(async () => {
     }
 
     const res = await axios.get(
-      `http://localhost:3000/api/users/${user}/cart`
+      `https://ecommerce-website-gra4.onrender.com/api/users/${user}/cart`
     );
 
     const cartArr = res.data.cart || [];

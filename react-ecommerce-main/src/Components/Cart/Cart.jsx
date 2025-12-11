@@ -17,7 +17,7 @@ const Cart = () => {
 
     try {
       const res = await axios.get(
-        `http://localhost:3000/api/users/${userId}/cart`
+        `https://ecommerce-website-gra4.onrender.com/api/users/${userId}/cart`
       );
 
       console.log(res.data);

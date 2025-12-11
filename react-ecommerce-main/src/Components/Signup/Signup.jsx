@@ -56,7 +56,7 @@ const Signup = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:3000/api/users/signup", {
+      const res = await axios.post("https://ecommerce-website-gra4.onrender.com/api/users/signup", {
         name: formValues.userName,
         email: formValues.email,
         password: formValues.password,

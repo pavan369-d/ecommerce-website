@@ -38,7 +38,7 @@ const Products = ({ setItemId, itemId, newEndTime, setTimeCount }) => {
       }
 
       const res = await axios.post(
-        `http://localhost:3000/api/users/${userId}/cart/add`,
+        `https://ecommerce-website-gra4.onrender.com/api/users/${userId}/cart/add`,
         { productId }
       );
 
@@ -53,7 +53,7 @@ const Products = ({ setItemId, itemId, newEndTime, setTimeCount }) => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/api/products/");
+        const res = await axios.get("https://ecommerce-website-gra4.onrender.com/api/products/");
         console.log("Backend response:", res.data);
 
         // FIX AUTO-DETECT:
